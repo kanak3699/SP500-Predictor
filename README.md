@@ -12,6 +12,24 @@ The S&P 500 index committee regularly reviews and adjusts the index composition 
 4. **Predicting changes** by identifying at-risk current members and strong candidates
 5. **Generating comprehensive reports** with detailed reasoning for each prediction
 
+## How to Run
+
+### 1. Clone the Repository 
+-  https://github.com/kanak3699/SP500-Predictor.git
+
+### 2. Install Python Dependencies  
+
+- Run the following command in terminal to install dependencies 
+```
+pip install pandas yfinance tqdm numpy
+```
+
+### 3. Run the app
+- Type the following command in terminal 
+```
+python main.py
+```
+
 ## Algorithm Overview
 
 ### Addition Scoring (Weighted Multi-Factor Model)
